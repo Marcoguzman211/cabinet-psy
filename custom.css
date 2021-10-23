@@ -1,0 +1,14 @@
+/* Font Ralleway Google */
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  
+/*Ajout du background pour la paga avec le tracé de Marion */
+  #bghomecontainer {
+    background-image: url("./images/background/header.png");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border: 2px solid red;
+    /* padding: 0 0 70em 0em; */
+  }
