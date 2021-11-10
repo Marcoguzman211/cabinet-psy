@@ -8,8 +8,9 @@ body {
   #bghomecontainer {
     background-image: url("./images/background/header.png");
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 100%;
     /* padding: 0 0 70em 0em; */
+    padding: 0;
   }
 
  .bg-marionprimary {
