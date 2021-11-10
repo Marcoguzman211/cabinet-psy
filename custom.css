@@ -40,4 +40,24 @@ body {
   position:absolute;
 }
 
+.accordion-button.collapsed {
+ background-color: transparent; 
+}
 
+.accordion-button.collapsed::after {
+  background-image: url(./images/croix.svg);
+}
+
+.accordion-button::after {
+  background-image: url(./images/croix.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./images/trait.svg);
+  background-color: transparent;
+  /* border: 2px solid red; */
+}
+
+/* .accordion-item {
+  border: 2px solid #FFF;
+} */
