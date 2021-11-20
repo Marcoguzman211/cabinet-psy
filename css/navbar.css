@@ -98,7 +98,7 @@
 }
 @media screen and (max-width: 768px) {
   .nav-menu {
-    background: #fff;
+    background: #FFF;
     flex-direction: column;
     justify-content: center;
     opacity: 0;
