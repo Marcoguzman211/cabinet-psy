@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* .footer-section {
+  position: absolute;
+    width: 100%;
+    bottom: 0;
+} */
+.footer-section .footerbar{
+height: 50px;
+background-color: #10AAA4;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: auto 15px;
+}
+.footer-section .footerbar p{
+text-align: center;
+font-size: 15px;
+text-align: center;
+color: #ffffff;
+margin-bottom: 0px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 500;
+}
+.footer-section .footerbar:nth-child(1)
+{
+  background-color: #F8E0C2 !important;
+}
+.footer-section .footerbar:nth-child(3)
+{
+  background-color: #036D7D !important;
+}
