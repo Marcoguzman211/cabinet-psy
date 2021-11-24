@@ -68,6 +68,7 @@ button:focus {
   font-weight: 700;
   font-size: 50px;
 }
+
 .heading1 h3 {
   font-weight: 500;
   font-size: 30px;
@@ -176,6 +177,11 @@ button:focus {
   position: relative;
   height: 0;
 }
+@media (min-width: 768px) {
+  .responsive-map {
+    padding-bottom: 20%;
+  }
+}
 .responsive-map iframe {
   left: 0;
   top: 0;
@@ -235,24 +241,28 @@ button:focus {
   .pnmu2 .col2dflex1{
   width: 55%;
   z-index: auto;
-  padding: 2% 4% 2% 12%
+  padding: 2% 4% 2% 12%;
+}
+
+.pnmu2 .col2dflex1 p {
+  font-size: 16px;
 }
   .catherinrsec3 p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .textcathd1 p {
-    font-size: 20px;
+    font-size: 16px;
   }
   .heading1 {
     max-width: 1000px;
   }
   .heading1 h2 {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 40px;
   }
   .heading1 h3 {
     font-weight: 500;
-    font-size: 60px;
+    font-size: 30px;
   }
   .para1 {
     max-width: 810px;
@@ -260,7 +270,7 @@ button:focus {
   }
   .para1 p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .col2dflex1 {
@@ -271,10 +281,10 @@ button:focus {
     right: 0px;
   }
   .col2dflex1 h2 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .col2dflex1 p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0px;
   }
   .hs3maxwidth {
@@ -289,16 +299,24 @@ button:focus {
     font-weight: 500;
   }
   .hs3maxwidth p {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0px;
     color: #ffffff;
     font-weight: 200;
   }
   .homesection4 h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     color: #000;
   }
+  .homesection4 .containerfluid p {
+    font-size: 19px;
+  }
+
+  .homesection4.sarasec4 p {
+    font-size: 18px;
+  }
+
   .hs4maxwidth {
     max-width: 1260px;
     margin: 2rem auto;
@@ -309,16 +327,15 @@ button:focus {
     font-weight: 500;
   }
   .page2sec2 h2 {
-    font-size: 28px;
-  }
-  .page2sec2 p {
-    font-size: 20px;
-  }
-  .page2sec2 h2 {
     font-size: 22px;
   }
   .page2sec2 p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 2000px) {
+  #imageSara {
+    margin-bottom: 10vw;
   }
 }
 
